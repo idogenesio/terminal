@@ -1,8 +1,16 @@
-streamlit>=1.30.0
-pandas<2.2.0
-numpy<2.0.0
-pandas-ta
-yfinance
-plotly
-google-generativeai
-scipy
+# Core Web App
+streamlit>=1.35.0
+
+# Data & Finance (Pinned to fix the build error)
+numpy>=1.26.4
+pandas>=2.2.2
+pandas-ta>=0.3.14b0
+yfinance>=0.2.40
+scipy>=1.12.0
+
+# Visualization & AI
+plotly>=5.20.0
+google-generativeai>=0.5.0
+
+# Production Server
+gunicorn>=22.0.0

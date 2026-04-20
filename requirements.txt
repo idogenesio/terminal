@@ -5,3 +5,4 @@ yfinance
 plotly
 pandas-ta
 google-generativeai
+numba

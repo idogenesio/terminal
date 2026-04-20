@@ -3,4 +3,4 @@ numpy
 pandas
 yfinance
 plotly
-pandas_ta as ta
+pandas_ta

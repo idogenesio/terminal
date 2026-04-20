@@ -1,8 +1,7 @@
 streamlit
-numpy
-pandas
+pandas<2.2.0
+numpy<2.0.0
+pandas-ta
+google-generativeai
 yfinance
 plotly
-pandas_ta
-google-generativeai
-numba
